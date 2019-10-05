@@ -1,0 +1,50 @@
+p {
+   position: relative;
+   bottom: 304px;
+   padding: 80px;
+   left: 220px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 910px;
+   color: white
+}
+
+.display-3 {
+   position: relative;
+   bottom: 65px;
+   left: 22px;
+   font-size: xx-large;
+   color: white
+}
+
+.nav-item {
+   position: relative;
+   left: 800px;
+}
+
+.rounded {
+   position: relative;
+   left: 50px;
+}
+
+img {
+   position: relative;
+   bottom: 20px;
+   padding-left: 35px;
+}
+
+* {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-copyright {
+   position: relative;
+   top: 120px;
+   background-color: #454561
+}
+
+body {
+   background-image: url("img_tree.gif"), url("paper.gif");
+   background-color: #cccccc;
+ }
+
+ 
