@@ -1,21 +1,15 @@
 p {
    position: relative;
-   bottom: 260px;
+   bottom: 230px;
    padding: 80px;
    left: 190px;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   width: 870px;
+   width: 840px;
    color: black;
    display: flex;
 }
 
-.display-3 {
-   position: relative;
-   bottom: 60px;
-   left:   85px;
-   font-size: xx-large;
-   color: white
-}
+
 
 .nav-item {
    position: relative;
@@ -30,14 +24,14 @@ p {
 
 img {
    position: relative;
-   top: 20px;
+   top: 50px;
    left:10px;
 }
 
 .stuff {
    background-color: #eeeeee;
    position: relative;
-   height: 300px;
+   height: 400px;
    width: 1000px;
    left: 50px;
 }
@@ -62,10 +56,6 @@ img {
    background-color: #454561
 }
 
-.page-footer {
-   position: relative;
-   top: 200px;
-}
 
 .contact {
    background: #f7f7f7;
@@ -76,8 +66,7 @@ img {
 
 body {
       background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg");
-      background-color: #cccccc;
-      margin-bottom: 200px;
+      margin-bottom: 10px;
       height:  400px;
       width: auto;
       border: #777777;
@@ -108,7 +97,7 @@ body {
  .grid {
    display: grid;
    position: relative;
-   left: 300px;
+   left: 30px;
    grid-template-columns: repeat(3,150px);  /* 3 columns */
    grid-template-rows: repeat(3,150px); /* 3 rows  */
    grid-gap:100px 80px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
@@ -122,8 +111,30 @@ body {
 
  h3 {
     position: relative;
-    top: 18px;
+    top: 50px;
     left: 50px;
     font-size: large;
     padding: 10px;
  }
+
+ .stuffington {
+    background-color: white;
+    position: relative;
+    height: 600px;
+    width: 70%;
+    left: 120px;
+ }
+
+ .display-3 {
+   position: relative;
+   bottom: 60px;
+   left:   85px;
+   font-size: xx-large;
+   color: white
+}
+
+.page-footer {
+   position: relative;
+   display: inline;
+   top: 90px;
+}
