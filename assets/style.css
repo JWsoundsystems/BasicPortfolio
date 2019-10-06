@@ -112,9 +112,15 @@ body {
  h3 {
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 68px;
     font-size: large;
     padding: 10px;
+ }
+
+ .aboutme {
+    font-size: x-large;
+    position: relative;
+    right: 10px;
  }
 
  .stuffington {
@@ -133,8 +139,12 @@ body {
    color: white
 }
 
-.page-footer {
+.page-footers {
+ position: relative;
+ top: 96px;
+}
+
+.page-footerz {
    position: relative;
-   display: inline;
-   top: 90px;
+   bottom: 104px;
 }
