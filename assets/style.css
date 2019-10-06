@@ -4,8 +4,8 @@ p {
    padding: 80px;
    left: 190px;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   width: 910px;
-   color: white;
+   width: 870px;
+   color: black;
    display: flex;
 }
 
@@ -20,25 +20,26 @@ p {
 .nav-item {
    position: relative;
    left: 900px;
+   color: white;
 }
 
 .rounded {
    position: relative;
-   left: 50px;
+   left: 30px;
 }
 
 img {
    position: relative;
    top: 20px;
-   left: 40px;
+   left:10px;
 }
 
 .stuff {
-   background-color: #777777;
+   background-color: #eeeeee;
    position: relative;
    height: 300px;
-   width: 1040px;
-   left: 30px;
+   width: 1000px;
+   left: 50px;
 }
 
 
@@ -56,16 +57,73 @@ img {
 
 .footer-copyright {
    position: relative;
-   top: 420px;
+   height: 60px;
+   top: 210px;
    background-color: #454561
+}
+
+.page-footer {
+   position: relative;
+   top: 200px;
+}
+
+.contact {
+   background: #f7f7f7;
+   position: relative;
+   height: 600px;
+   padding-bottom: 80px;
 }
 
 body {
       background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg");
       background-color: #cccccc;
       margin-bottom: 200px;
-      height: 680px;
+      height:  400px;
       width: auto;
       border: #777777;
       border-width: thick;
 }
+
+ 
+ .form-box {
+   max-width: 500px;
+   margin: auto;
+   padding: 50px;
+   background: #ffffff;
+   border: 10px solid #f2f2f2;
+ }
+ 
+ h1, p {
+   text-align: center;
+ }
+ 
+ input, textarea {
+   width: 100%;
+ }
+
+ section,h1 {
+   padding: 0 1em;
+ }
+ 
+ .grid {
+   display: grid;
+   position: relative;
+   left: 300px;
+   grid-template-columns: repeat(3,150px);  /* 3 columns */
+   grid-template-rows: repeat(3,150px); /* 3 rows  */
+   grid-gap:100px 80px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+ }
+ 
+ .grid-item{
+   padding:20px;
+   color:black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ h3 {
+    position: relative;
+    top: 18px;
+    left: 50px;
+    font-size: large;
+    padding: 10px;
+ }
