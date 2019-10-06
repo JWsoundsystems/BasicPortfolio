@@ -5,20 +5,21 @@ p {
    left: 220px;
    font-family: Georgia, 'Times New Roman', Times, serif;
    width: 910px;
-   color: white
+   color: black;
+   display: flex;
 }
 
 .display-3 {
    position: relative;
-   bottom: 65px;
-   left: 22px;
+   bottom: 60px;
+   left:   85px;
    font-size: xx-large;
    color: white
 }
 
 .nav-item {
    position: relative;
-   left: 800px;
+   left: 830px;
 }
 
 .rounded {
@@ -43,8 +44,11 @@ img {
 }
 
 body {
-   background-image: url("img_tree.gif"), url("paper.gif");
-   background-color: #cccccc;
- }
-
- 
+      background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg");
+      background-color: #cccccc;
+      margin-bottom: 200px;
+      height: 680px;
+      width: auto;
+      border: #777777;
+      border-width: thick;
+}
