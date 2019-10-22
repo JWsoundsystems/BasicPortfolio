@@ -1,12 +1,10 @@
-
-
-.rounded {
-   position: relative;
-   left: 30px;
-}
-
-
 @media only screen and (max-width: 1680px) {
+
+   .headnav {
+      position: inherit;
+      width: 100%;
+      right: 100px;
+   }
 
 .stuff {
    background-color: #eeeeee;
@@ -18,6 +16,7 @@
    border-style: solid;
    
    }
+
 
    img {
       position: relative;
@@ -76,6 +75,64 @@
    border: #777777;
    border-style: solid;
 }
+
+.page-footers {
+   position: relative;
+   top: 96px;
+  }
+  
+  .page-footerz {
+     position: relative;
+     bottom: 104px;
+  }
+
+  .rounded {
+   position: relative;
+   left: 30px;
+}
+
+}
+
+@media only screen and (max-width: 1570px) {
+
+   .headnav {
+      position: relative;
+      right: 150px;
+   }
+
+   .nav-item {
+      position: relative;
+      left: 950px;
+      color: white;
+   }
+}
+
+@media only screen and (max-width: 1390px) {
+
+   .headnav {
+      position: relative;
+      right: 250px;
+   }
+
+   .nav-item {
+      position: relative;
+      left: 890px;
+      color: white;
+   }
+}
+
+@media only screen and (max-width: 1220px) {
+
+   .headnav {
+      position: relative;
+      right: 450px;
+   }
+
+   .nav-item {
+      position: relative;
+      left: 850px;
+      color: white;
+   }
 }
 
 @media only screen and (max-width: 1201px) {
@@ -85,9 +142,14 @@
       position: relative;
       height: 500px;
       width: 800px;
-      left: 50px;
+      left: 150px;
       border: #777777;
       border-style: solid;
+      }
+
+      .headnav {
+         position: relative;
+         right: 300px;
       }
 
 
@@ -124,7 +186,7 @@
 
 .nav-item {
    position: relative;
-   left: 900px;
+   left: 700px;
    color: white;
 }
 
@@ -137,13 +199,39 @@
    background-color: white;
    position: relative;
    height: 870px;
-   width: 60%;
-   left: 120px;
+   width: 50%;
+   left: 260px;
    border: #777777;
    border-style: solid;
 }
 
+.page-footers {
+   position: relative;
+   bottom: 300px;
+}
 
+}
+
+@media only screen and (max-width: 1199px) {
+   .stuffington {
+      background-color: white;
+      position: relative;
+      height: 870px;
+      width: 59%;
+      left: 180px;
+      border: #777777;
+      border-style: solid;
+   }
+
+   .stuff {
+      background-color: #eeeeee;
+      position: relative;
+      height: 500px;
+      width: 800px;
+      left: 60px;
+      border: #777777;
+      border-style: solid;
+      }
 }
 
 @media only screen and (max-width: 991px) {
@@ -157,6 +245,13 @@
       border: #777777;
       border-style: solid;
       }
+      .headnav {
+         position: relative;
+         width: 100%;
+         right: 380px;
+      }
+
+ 
 
       p {
          position: relative;
@@ -251,6 +346,8 @@
 .nav-item {
    position: relative;
    color: white;
+   font-size: small;
+   display: inline;
 }
 
 .navbar {
@@ -261,6 +358,7 @@
 .li {
    position: relative;
    right: 80px;
+   font-size: small;
 }
 
 
@@ -378,15 +476,7 @@ body {
    color: white
 }
 
-.page-footers {
- position: relative;
- top: 96px;
-}
 
-.page-footerz {
-   position: relative;
-   bottom: 104px;
-}
 
 .aboutme {
    font-size: xx-large;
