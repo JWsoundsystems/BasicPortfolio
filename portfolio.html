@@ -13,19 +13,16 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 text-light">
       
-      <div class="headnav" class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>  
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a href="index.html"><button class="dropdown-item" type="button" >About Me</button></a>
+            <a href="portfolio.html"><button class="dropdown-item" type="button" >Portfolio</button></a>
+            <a href="contact.html"><button class="dropdown-item" type="button" >Contact</button></a>
+        </div>
+      </div>
     </nav>
     <div class="text-center" class="w-25 p-3" style="background-color: #666666"></div>
     <div class="container">

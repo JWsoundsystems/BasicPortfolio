@@ -3,8 +3,13 @@
    .headnav {
       position: inherit;
       width: 100%;
-      right: 100px;
+      
    }
+
+.dropdown {
+   position: relative;
+   left: 1230px;
+}
 
 .stuff {
    background-color: #eeeeee;
@@ -97,13 +102,19 @@
 
    .headnav {
       position: relative;
-      right: 150px;
+      
    }
 
    .nav-item {
       position: relative;
       left: 950px;
       color: white;
+   
+   }
+
+   .dropdown {
+      position: relative;
+      left: 1000px;
    }
 }
 
@@ -111,7 +122,7 @@
 
    .headnav {
       position: relative;
-      right: 250px;
+      
    }
 
    .nav-item {
@@ -119,13 +130,24 @@
       left: 890px;
       color: white;
    }
+
+   .dropdown {
+      position: relative;
+      left: 930px;
+   }
 }
 
 @media only screen and (max-width: 1220px) {
 
    .headnav {
       position: relative;
-      right: 450px;
+      
+      
+   }
+
+   .dropdown {
+      position: relative;
+      left: 880px;
    }
 
    .nav-item {
@@ -149,7 +171,12 @@
 
       .headnav {
          position: relative;
-         right: 300px;
+         width: 100%;
+      }
+
+      .dropdown {
+         position: relative;
+         left: 490px;
       }
 
 
@@ -232,6 +259,11 @@
       border: #777777;
       border-style: solid;
       }
+
+      .dropdown {
+         position: relative;
+         left: 780px;
+      }
 }
 
 @media only screen and (max-width: 991px) {
@@ -249,6 +281,11 @@
          position: relative;
          width: 100%;
          right: 380px;
+      }
+
+      .dropdown {
+         position: relative;
+         left: 580px;
       }
 
  
@@ -321,6 +358,12 @@
       border: #777777;
       border-style: solid;
    
+   
+      }
+
+      .dropdown {
+         position: relative;
+         left: 480px;
       }
 
       p {
