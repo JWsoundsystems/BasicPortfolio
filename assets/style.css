@@ -44,7 +44,9 @@
 
 .port {
    position: relative;
-   left: 5px;
+   left: -35px;
+  
+
 }
 
 .head {
@@ -74,8 +76,8 @@
 .stuffington {
    background-color: white;
    position: relative;
-   height: 870px;
-   width: 50%;
+   height: 710px;
+   width: 43%;
    left: 260px;
    border: #777777;
    border-style: solid;
